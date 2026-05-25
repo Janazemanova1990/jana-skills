@@ -1,11 +1,11 @@
 ---
 name: nextfem-meeting-summary
-description: "Create beautiful HTML email newsletters summarizing meetings for NextFem AI community. Use when the user wants to create a meeting summary, meeting notes newsletter, recap email, or meeting recap with NextFem AI branding. Generates styled HTML with the NextFem AI visual identity including brand colors (purple #ada2cc, turquoise #9fd7d5, coral #f89083) and DM Sans typography."
+description: "Create beautiful HTML email newsletters summarizing meetings for Nextfem AI community. Use when the user wants to create a meeting summary, meeting notes newsletter, recap email, or meeting recap with Nextfem AI branding. Generates styled HTML with the Nextfem AI visual identity including brand colors (purple #ada2cc, turquoise #9fd7d5, coral #f89083) and DM Sans typography."
 ---
 
-# NextFem AI Meeting Summary Newsletter
+# Nextfem AI Meeting Summary Newsletter
 
-Generate beautifully designed HTML email newsletters that summarize meetings with NextFem AI branding.
+Generate beautifully designed HTML email newsletters that summarize meetings with Nextfem AI branding.
 
 ## Brand Guidelines
 
@@ -24,8 +24,8 @@ Generate beautifully designed HTML email newsletters that summarize meetings wit
 - **Section headers**: DM Sans Bold, 24px
 
 ### Logo
-Use the official NextFem AI favicon as the logo:
-- URL: `https://nextfemai.com/favicon.png`
+Use the official Nextfem AI favicon as the logo:
+- URL: `https://nextfemai.com/nextfem-favicon-transparent.png`
 - Display as `<img>` tag, centered, width 80px
 - Do NOT generate SVG circles — always use this image URL
 

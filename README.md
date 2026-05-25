@@ -1,13 +1,13 @@
 # jana-skills
 
-A collection of [Claude skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) I've built for my work and for the NextFem AI community.
+A collection of [Claude skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) I've built for my work and for the Nextfem AI community.
 
 A skill is a folder with a `SKILL.md` (instructions + frontmatter) and optionally supporting files (templates, references, scripts). Claude reads it on demand when the task matches its description.
 
 ## Skills in this repo
 
 ### [`nextfem-meeting-summary`](./nextfem-meeting-summary)
-HTML email newsletter generator for [NextFem AI](https://nextfemai.com) community meetings. Takes meeting notes, returns a fully branded HTML email — colours, typography, structure, all on-brand and inline-styled for email clients.
+HTML email newsletter generator for [Nextfem AI](https://nextfemai.com) community meetings. Takes meeting notes, returns a fully branded HTML email — colours, typography, structure, all on-brand and inline-styled for email clients.
 
 **Use case:** community meeting → polished recap newsletter in one prompt.
 
@@ -29,6 +29,6 @@ A skill that audits other skills. Before you install a skill from GitHub or any 
 
 ## About
 
-Built by Jana — project manager, builder, founder of [NextFem AI](https://nextfemai.com).
+Built by Jana — project manager, builder, founder of [Nextfem AI](https://nextfemai.com).
 
 These skills exist because I needed them. Sharing them in case they're useful to someone else.

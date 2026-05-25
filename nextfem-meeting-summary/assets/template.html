@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextFem AI - Meeting Summary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; background-color: #f8f7fc; font-family: 'DM Sans', Arial, sans-serif;">
+  
+  <!-- Email Container -->
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f8f7fc;">
+    <tr>
+      <td style="padding: 40px 20px;">
+        
+        <!-- Main Content Card -->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center" style="background-color: #ffffff; border-radius: 16px; box-shadow: 0 4px 24px rgba(173, 162, 204, 0.15);">
+          
+          <!-- Header with Logo -->
+          <tr>
+            <td style="padding: 40px 40px 30px 40px; text-align: center;">
+              <!-- NextFem AI Logo -->
+              <img src="https://nextfemai.com/favicon.png" width="80" height="80" alt="NextFem AI" style="display: block; margin: 0 auto 25px auto;" />
+              <h1 style="font-family: 'DM Sans', Arial, sans-serif; font-size: 40px; font-weight: 700; color: #2d2d2d; margin: 0 0 8px 0;">NextFem AI</h1>
+              <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 18px; color: #ada2cc; margin: 0; font-weight: 500;">Meeting Summary</p>
+            </td>
+          </tr>
+          
+          <!-- Meeting Info Bar -->
+          <tr>
+            <td style="padding: 0 40px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: linear-gradient(135deg, #ada2cc 0%, #9fd7d5 100%); border-radius: 12px;">
+                <tr>
+                  <td style="padding: 20px 24px;">
+                    <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 14px; color: #ffffff; margin: 0 0 4px 0; opacity: 0.9;">📅 Meeting Date</p>
+                    <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 18px; color: #ffffff; margin: 0; font-weight: 700;">{{MEETING_DATE}}</p>
+                  </td>
+                  <td style="padding: 20px 24px; text-align: right;">
+                    <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 14px; color: #ffffff; margin: 0 0 4px 0; opacity: 0.9;">👥 Attendees</p>
+                    <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 18px; color: #ffffff; margin: 0; font-weight: 700;">{{ATTENDEE_COUNT}} members</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          
+          <!-- Section 1: What We Accomplished -->
+          <tr>
+            <td style="padding: 30px 40px 0 40px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="border-left: 4px solid #f89083; padding-left: 16px;">
+                    <h2 style="font-family: 'DM Sans', Arial, sans-serif; font-size: 24px; font-weight: 700; color: #2d2d2d; margin: 0 0 16px 0;">✨ What We Accomplished</h2>
+                  </td>
+                </tr>
+              </table>
+              <div style="background-color: #f8f7fc; border-radius: 12px; padding: 20px;">
+                {{ACCOMPLISHMENTS}}
+              </div>
+            </td>
+          </tr>
+          
+          <!-- Section 2: Tools We Used -->
+          <tr>
+            <td style="padding: 30px 40px 0 40px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="border-left: 4px solid #9fd7d5; padding-left: 16px;">
+                    <h2 style="font-family: 'DM Sans', Arial, sans-serif; font-size: 24px; font-weight: 700; color: #2d2d2d; margin: 0 0 16px 0;">🛠️ Tools We Used</h2>
+                  </td>
+                </tr>
+              </table>
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  {{TOOLS}}
+                </tr>
+              </table>
+            </td>
+          </tr>
+          
+          <!-- Section 3: Use Cases Explored -->
+          <tr>
+            <td style="padding: 30px 40px 0 40px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="border-left: 4px solid #ada2cc; padding-left: 16px;">
+                    <h2 style="font-family: 'DM Sans', Arial, sans-serif; font-size: 24px; font-weight: 700; color: #2d2d2d; margin: 0 0 16px 0;">💡 Use Cases Explored</h2>
+                  </td>
+                </tr>
+              </table>
+              <div style="background-color: #f8f7fc; border-radius: 12px; padding: 20px;">
+                {{USE_CASES}}
+              </div>
+            </td>
+          </tr>
+          
+          <!-- Section 4: Decisions Made -->
+          <tr>
+            <td style="padding: 30px 40px 0 40px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="border-left: 4px solid #f89083; padding-left: 16px;">
+                    <h2 style="font-family: 'DM Sans', Arial, sans-serif; font-size: 24px; font-weight: 700; color: #2d2d2d; margin: 0 0 16px 0;">✅ Decisions Made</h2>
+                  </td>
+                </tr>
+              </table>
+              <div style="background-color: #f8f7fc; border-radius: 12px; padding: 20px;">
+                {{DECISIONS}}
+              </div>
+            </td>
+          </tr>
+          
+          <!-- Section 5: Action Items -->
+          <tr>
+            <td style="padding: 30px 40px 0 40px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="border-left: 4px solid #9fd7d5; padding-left: 16px;">
+                    <h2 style="font-family: 'DM Sans', Arial, sans-serif; font-size: 24px; font-weight: 700; color: #2d2d2d; margin: 0 0 16px 0;">📋 Action Items</h2>
+                  </td>
+                </tr>
+              </table>
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                {{ACTION_ITEMS}}
+              </table>
+            </td>
+          </tr>
+          
+          <!-- Section 6: Challenges & Solutions -->
+          <tr>
+            <td style="padding: 30px 40px 0 40px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="border-left: 4px solid #ada2cc; padding-left: 16px;">
+                    <h2 style="font-family: 'DM Sans', Arial, sans-serif; font-size: 24px; font-weight: 700; color: #2d2d2d; margin: 0 0 16px 0;">🚧 Challenges & Solutions</h2>
+                  </td>
+                </tr>
+              </table>
+              <div style="background-color: #f8f7fc; border-radius: 12px; padding: 20px;">
+                {{CHALLENGES}}
+              </div>
+            </td>
+          </tr>
+          
+          <!-- Section 7: Next Meeting -->
+          <tr>
+            <td style="padding: 30px 40px 0 40px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: linear-gradient(135deg, #f89083 0%, #ada2cc 100%); border-radius: 12px;">
+                <tr>
+                  <td style="padding: 24px;">
+                    <h2 style="font-family: 'DM Sans', Arial, sans-serif; font-size: 24px; font-weight: 700; color: #ffffff; margin: 0 0 12px 0;">📅 Next Meeting</h2>
+                    <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 18px; color: #ffffff; margin: 0 0 8px 0; font-weight: 700;">{{NEXT_MEETING_DATE}}</p>
+                    <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 16px; color: #ffffff; margin: 0; opacity: 0.9;">{{NEXT_MEETING_TOPICS}}</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          
+          <!-- Footer -->
+          <tr>
+            <td style="padding: 40px; text-align: center;">
+              <img src="https://nextfemai.com/favicon.png" width="40" height="40" alt="NextFem AI" style="display: block; margin: 0 auto 12px auto;" />
+              <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 14px; color: #ada2cc; margin: 0;">Powered by <strong style="color: #2d2d2d;">NextFem AI</strong></p>
+              <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 12px; color: #ada2cc; margin: 8px 0 0 0;">Empowering women in AI 💜</p>
+            </td>
+          </tr>
+          
+        </table>
+        
+      </td>
+    </tr>
+  </table>
+  
+</body>
+</html>
+
+<!--
+TEMPLATE USAGE NOTES:
+
+Replace these placeholders with actual content:
+- {{MEETING_DATE}} - e.g., "January 6, 2025"
+- {{ATTENDEE_COUNT}} - e.g., "12"
+- {{ACCOMPLISHMENTS}} - Bullet list of what was done
+- {{TOOLS}} - Tool badges (see tool badge template below)
+- {{USE_CASES}} - Bullet list of use cases discussed
+- {{DECISIONS}} - Bullet list of decisions made
+- {{ACTION_ITEMS}} - Action item rows (see action item template below)
+- {{CHALLENGES}} - Bullet list of challenges and solutions
+- {{NEXT_MEETING_DATE}} - e.g., "January 13, 2025 at 6:00 PM CET"
+- {{NEXT_MEETING_TOPICS}} - Preview of next meeting topics
+
+TOOL BADGE TEMPLATE (for {{TOOLS}}):
+<td style="padding: 4px;">
+  <span style="display: inline-block; background-color: #f8f7fc; border: 1px solid #ada2cc; border-radius: 20px; padding: 8px 16px; font-family: 'DM Sans', Arial, sans-serif; font-size: 14px; color: #2d2d2d; font-weight: 500;">🤖 Claude</span>
+</td>
+
+ACTION ITEM TEMPLATE (for {{ACTION_ITEMS}}):
+<tr>
+  <td style="padding: 8px 0;">
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f8f7fc; border-radius: 8px;">
+      <tr>
+        <td style="padding: 16px; width: 40px; vertical-align: top;">
+          <div style="width: 24px; height: 24px; border: 2px solid #9fd7d5; border-radius: 6px; background-color: #ffffff;"></div>
+        </td>
+        <td style="padding: 16px 16px 16px 0;">
+          <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 16px; color: #2d2d2d; margin: 0 0 4px 0; font-weight: 500;">Task description here</p>
+          <p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 14px; color: #ada2cc; margin: 0;">👤 Owner Name • 📅 Due Date</p>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+BULLET LIST TEMPLATE (for content sections):
+<p style="font-family: 'DM Sans', Arial, sans-serif; font-size: 16px; color: #2d2d2d; margin: 0 0 12px 0; line-height: 1.6;">
+  <span style="color: #f89083; font-weight: bold;">•</span> Item text here
+</p>
+-->
